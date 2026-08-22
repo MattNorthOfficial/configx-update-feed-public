@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-22T18:30:50Z",
+  "updated": "2026-08-22T19:18:29Z",
   "source": "https://gpuopen.com/version-table/",
   "communitySources": {
     "intelChipsetInf": {
@@ -13,22 +13,22 @@
     }
   },
   "freshness": {
-    "amd.windows": "2026-08-22T18:30:50Z",
-    "amd.chipset": "2026-08-22T18:30:50Z",
-    "windowsBuilds": "2026-08-22T18:30:50Z",
-    "windows10": "2026-08-22T18:30:50Z",
+    "amd.windows": "2026-08-22T19:18:29Z",
+    "amd.chipset": "2026-08-22T19:18:29Z",
+    "windowsBuilds": "2026-08-22T19:18:29Z",
+    "windows10": "2026-08-22T19:18:29Z",
     "motherboards.msi": "2026-08-22T10:52:54Z",
     "motherboards.gigabyte": "2026-08-22T10:52:54Z",
     "motherboards.asrock": "2026-08-22T10:52:54Z",
     "motherboards.asus": "2026-08-22T10:52:54Z",
-    "dell": "2026-08-22T18:30:50Z",
-    "intel.chipset": "2026-08-22T18:30:50Z",
-    "intel.arc": "2026-08-14T19:34:31Z",
-    "intel.xe": "2026-08-22T18:30:50Z",
-    "intel.rst20": "2026-08-22T18:30:50Z",
-    "intel.rst21": "2026-08-22T18:30:50Z",
-    "intel.chipsetInf": "2026-08-22T18:30:50Z",
-    "nvidia": "2026-08-22T18:30:50Z"
+    "dell": "2026-08-22T19:18:29Z",
+    "intel.chipset": "2026-08-22T19:18:29Z",
+    "intel.arc": "2026-08-22T19:18:29Z",
+    "intel.xe": "2026-08-22T19:18:29Z",
+    "intel.rst20": "2026-08-22T19:18:29Z",
+    "intel.rst21": "2026-08-22T19:18:29Z",
+    "intel.chipsetInf": "2026-08-22T19:18:29Z",
+    "nvidia": "2026-08-22T19:18:29Z"
   },
   "amd": {
     "windows": {
@@ -18873,6 +18873,11 @@
       "url": "https://www.intel.com/content/www/us/en/download/19347/chipset-inf-utility.html",
       "download": "https://downloadmirror.intel.com/925343/SetupChipset.exe"
     },
+    "arc": {
+      "version": "32.0.101.8974",
+      "url": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html",
+      "download": "https://downloadmirror.intel.com/926177/gfx_win_101.8974.exe"
+    },
     "xe": {
       "version": "32.0.101.7088",
       "url": "https://www.intel.com/content/www/us/en/download/864990/intel-11th-14th-gen-processor-graphics-windows.html",
@@ -21880,11 +21885,6 @@
       "19D6": "10.1.2.80",
       "8C31": "10.0.24",
       "8CB1": "10.0.24"
-    },
-    "arc": {
-      "version": "32.0.101.8864",
-      "url": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html",
-      "download": "https://downloadmirror.intel.com/923907/gfx_win_101.8864.exe"
     }
   },
   "nvidia": {

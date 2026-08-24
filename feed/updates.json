@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-24T11:04:14Z",
-  "source": "https://gpuopen.com/version-table/",
+  "updated": "2026-08-24T15:19:16Z",
   "communitySources": {
     "intelChipsetInf": {
       "repository": "FirstEverTech/Universal-Intel-Chipset-Updater",
@@ -13,22 +12,22 @@
     }
   },
   "freshness": {
-    "amd.windows": "2026-08-24T11:04:14Z",
-    "amd.chipset": "2026-08-24T11:04:14Z",
-    "windowsBuilds": "2026-08-24T11:04:14Z",
-    "windows10": "2026-08-24T11:04:14Z",
-    "motherboards.msi": "2026-08-24T11:04:14Z",
+    "amd.windows": "2026-08-24T15:19:16Z",
+    "amd.chipset": "2026-08-24T15:19:17Z",
+    "windowsBuilds": "2026-08-24T15:19:17Z",
+    "windows10": "2026-08-24T15:19:18Z",
+    "motherboards.msi": "2026-08-24T16:04:32Z",
     "motherboards.gigabyte": "2026-08-24T11:04:14Z",
-    "motherboards.asrock": "2026-08-24T11:04:14Z",
-    "motherboards.asus": "2026-08-24T11:04:14Z",
-    "dell": "2026-08-24T11:04:14Z",
-    "intel.chipset": "2026-08-24T11:04:14Z",
-    "intel.arc": "2026-08-24T11:04:14Z",
-    "intel.xe": "2026-08-24T11:04:14Z",
-    "intel.rst20": "2026-08-24T11:04:14Z",
-    "intel.rst21": "2026-08-24T11:04:14Z",
-    "intel.chipsetInf": "2026-08-24T11:04:14Z",
-    "nvidia": "2026-08-24T11:04:14Z"
+    "motherboards.asrock": "2026-08-24T16:04:32Z",
+    "motherboards.asus": "2026-08-24T16:04:32Z",
+    "dell": "2026-08-24T16:04:35Z",
+    "intel.chipset": "2026-08-24T16:04:48Z",
+    "intel.arc": "2026-08-24T16:04:48Z",
+    "intel.xe": "2026-08-24T16:04:48Z",
+    "intel.rst20": "2026-08-24T16:04:48Z",
+    "intel.rst21": "2026-08-24T16:04:48Z",
+    "intel.chipsetInf": "2026-08-24T16:04:48Z",
+    "nvidia": "2026-08-24T16:04:49Z"
   },
   "amd": {
     "windows": {
@@ -15262,15 +15261,27 @@
     }
   },
   "motherboardConflicts": {
-    "B840M GAMING PLUS WIFI6E": {
+    "B650M GAMING PLUS WIFI": {
       "msi": {
-        "bios": "7E77v1A42",
-        "date": "2026-06-26"
+        "bios": "7E24v1E2",
+        "date": "2026-07-06"
       },
       "gigabyte": {
-        "bios": "F6",
+        "bios": "FA8",
         "date": "2026-05-21",
-        "url": "https://www.gigabyte.com/Motherboard/B840M-GAMING-PLUS-WIFI6E/support#support-dl-bios"
+        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/support#support-dl-bios"
+      }
+    },
+    "B650M GAMING WIFI": {
+      "msi": {
+        "bios": "7E30v1F2",
+        "date": "2026-07-06"
+      },
+      "gigabyte": {
+        "bios": "F8",
+        "date": "2026-05-21",
+        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-WIFI-rev-14/support#support-dl-bios",
+        "revisionAmbiguous": true
       }
     },
     "B760M GAMING PLUS WIFI DDR4": {
@@ -15296,27 +15307,15 @@
         "url": "https://www.gigabyte.com/Motherboard/B760M-GAMING-WIFI-rev-12-14/support#support-dl-bios"
       }
     },
-    "B650M GAMING WIFI": {
+    "B840M GAMING PLUS WIFI6E": {
       "msi": {
-        "bios": "7E30v1F2",
-        "date": "2026-07-06"
+        "bios": "7E77v1A42",
+        "date": "2026-06-26"
       },
       "gigabyte": {
-        "bios": "F8",
+        "bios": "F6",
         "date": "2026-05-21",
-        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-WIFI-rev-14/support#support-dl-bios",
-        "revisionAmbiguous": true
-      }
-    },
-    "B650M GAMING PLUS WIFI": {
-      "msi": {
-        "bios": "7E24v1E2",
-        "date": "2026-07-06"
-      },
-      "gigabyte": {
-        "bios": "FA8",
-        "date": "2026-05-21",
-        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/support#support-dl-bios"
+        "url": "https://www.gigabyte.com/Motherboard/B840M-GAMING-PLUS-WIFI6E/support#support-dl-bios"
       }
     }
   },

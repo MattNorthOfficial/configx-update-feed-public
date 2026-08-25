@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-24T15:19:16Z",
+  "updated": "2026-08-25T11:02:07Z",
   "communitySources": {
     "intelChipsetInf": {
       "repository": "FirstEverTech/Universal-Intel-Chipset-Updater",
@@ -12,22 +12,22 @@
     }
   },
   "freshness": {
-    "amd.windows": "2026-08-24T15:19:16Z",
-    "amd.chipset": "2026-08-24T15:19:17Z",
-    "windowsBuilds": "2026-08-24T15:19:17Z",
-    "windows10": "2026-08-24T15:19:18Z",
-    "motherboards.msi": "2026-08-24T16:04:32Z",
+    "amd.windows": "2026-08-25T11:02:08Z",
+    "amd.chipset": "2026-08-25T11:02:08Z",
+    "windowsBuilds": "2026-08-25T11:02:08Z",
+    "windows10": "2026-08-25T11:02:09Z",
+    "motherboards.msi": "2026-08-25T11:45:44Z",
     "motherboards.gigabyte": "2026-08-24T11:04:14Z",
-    "motherboards.asrock": "2026-08-24T16:04:32Z",
-    "motherboards.asus": "2026-08-24T16:04:32Z",
-    "dell": "2026-08-24T16:04:35Z",
-    "intel.chipset": "2026-08-24T16:04:48Z",
-    "intel.arc": "2026-08-24T16:04:48Z",
-    "intel.xe": "2026-08-24T16:04:48Z",
-    "intel.rst20": "2026-08-24T16:04:48Z",
-    "intel.rst21": "2026-08-24T16:04:48Z",
-    "intel.chipsetInf": "2026-08-24T16:04:48Z",
-    "nvidia": "2026-08-24T16:04:49Z"
+    "motherboards.asrock": "2026-08-25T11:45:44Z",
+    "motherboards.asus": "2026-08-25T11:45:44Z",
+    "dell": "2026-08-25T11:45:47Z",
+    "intel.chipset": "2026-08-25T11:45:59Z",
+    "intel.arc": "2026-08-25T11:45:59Z",
+    "intel.xe": "2026-08-25T11:45:59Z",
+    "intel.rst20": "2026-08-25T11:45:59Z",
+    "intel.rst21": "2026-08-25T11:45:59Z",
+    "intel.chipsetInf": "2026-08-25T11:45:59Z",
+    "nvidia": "2026-08-25T11:46:01Z"
   },
   "amd": {
     "windows": {
@@ -762,8 +762,8 @@
       "vendor": "gigabyte"
     },
     "B450M Steel Legend": {
-      "bios": "10.60",
-      "date": "2026-04-22",
+      "bios": "10.70",
+      "date": "2026-08-25",
       "url": "https://www.asrock.com/mb/AMD/B450M%20Steel%20Legend/BIOS1.html",
       "vendor": "asrock"
     },
@@ -1297,8 +1297,8 @@
       "vendor": "asrock"
     },
     "B550M WiFi": {
-      "bios": "3.90",
-      "date": "2025-10-16",
+      "bios": "4.00",
+      "date": "2026-08-25",
       "url": "https://www.asrock.com/mb/AMD/B550M%20WiFi/BIOS.html",
       "vendor": "asrock"
     },
@@ -1326,8 +1326,8 @@
       "vendor": "asrock"
     },
     "B550M-HVS SE": {
-      "bios": "3.90",
-      "date": "2025-10-09",
+      "bios": "4.10",
+      "date": "2026-08-25",
       "url": "https://www.asrock.com/mb/AMD/B550M-HVS%20SE/BIOS.html",
       "vendor": "asrock"
     },
@@ -1344,8 +1344,8 @@
       "vendor": "asrock"
     },
     "B550M/ac": {
-      "bios": "3.90",
-      "date": "2025-10-09",
+      "bios": "4.00",
+      "date": "2026-08-25",
       "url": "https://www.asrock.com/mb/AMD/B550Mac/BIOS.html",
       "vendor": "asrock"
     },
@@ -6953,8 +6953,8 @@
       "vendor": "msi"
     },
     "MAG Z690 TOMAHAWK WIFI": {
-      "bios": "7D32vHN",
-      "date": "2026-03-17",
+      "bios": "7D32vHO",
+      "date": "2026-08-25",
       "vendor": "msi"
     },
     "MAG Z690 TOMAHAWK WIFI DDR4": {
@@ -6978,8 +6978,8 @@
       "vendor": "msi"
     },
     "MAG Z790 TOMAHAWK MAX WIFI": {
-      "bios": "7E25vAB",
-      "date": "2026-03-10",
+      "bios": "7E25vAC",
+      "date": "2026-08-25",
       "vendor": "msi"
     },
     "MAG Z790 TOMAHAWK WIFI": {
@@ -7143,8 +7143,8 @@
       "vendor": "msi"
     },
     "MEG Z690 UNIFY-X": {
-      "bios": "7D28vAN",
-      "date": "2026-03-20",
+      "bios": "7D28vAO",
+      "date": "2026-08-25",
       "vendor": "msi"
     },
     "MEG Z690I UNIFY": {
@@ -7153,13 +7153,13 @@
       "vendor": "msi"
     },
     "MEG Z790 ACE": {
-      "bios": "7D86v1G",
-      "date": "2026-03-26",
+      "bios": "7D86v1H",
+      "date": "2026-08-24",
       "vendor": "msi"
     },
     "MEG Z790 ACE MAX": {
-      "bios": "7D86vA9",
-      "date": "2026-03-26",
+      "bios": "7D86vAA",
+      "date": "2026-08-24",
       "vendor": "msi"
     },
     "MEG Z790 GODLIKE": {
@@ -9436,8 +9436,8 @@
       "vendor": "asus"
     },
     "PRIME Z590-A": {
-      "bios": "2405",
-      "date": "2026-01-12",
+      "bios": "2501",
+      "date": "2026-08-25",
       "url": "https://www.asus.com/supportonly/PRIME%20Z590-A/helpdesk_bios/",
       "vendor": "asus"
     },
@@ -9698,6 +9698,11 @@
       "url": "https://www.asus.com/supportonly/PRO%20A320M-R%20WI-FI/helpdesk_bios/",
       "vendor": "asus"
     },
+    "PRO A520M WIFI6E": {
+      "bios": "7D14v1O2",
+      "date": "2026-08-21",
+      "vendor": "msi"
+    },
     "Pro A520M-C II/CSM": {
       "bios": "3636",
       "date": "2026-01-30",
@@ -9951,8 +9956,8 @@
       "vendor": "asus"
     },
     "PRO B660M-E DDR4": {
-      "bios": "7D46v2P",
-      "date": "2026-03-17",
+      "bios": "7D46v2Q",
+      "date": "2026-08-25",
       "vendor": "msi"
     },
     "PRO B660M-G": {
@@ -10333,8 +10338,8 @@
       "vendor": "asus"
     },
     "Pro H510M-CT/CSM": {
-      "bios": "2405",
-      "date": "2026-01-21",
+      "bios": "2501",
+      "date": "2026-08-25",
       "url": "https://www.asus.com/supportonly/Pro%20H510M-CT%2FCSM/helpdesk_bios/",
       "vendor": "asus"
     },
@@ -10804,8 +10809,8 @@
       "vendor": "msi"
     },
     "PRO Z790-VC WIFI": {
-      "bios": "7D33vA9",
-      "date": "2026-04-09",
+      "bios": "7D33vAA",
+      "date": "2026-08-25",
       "vendor": "msi"
     },
     "PRO Z890-A WIFI": {
@@ -11927,8 +11932,8 @@
       "vendor": "asus"
     },
     "ROG STRIX Z490-F GAMING": {
-      "bios": "3302",
-      "date": "2026-03-24",
+      "bios": "3401",
+      "date": "2026-08-25",
       "url": "https://www.asus.com/supportonly/ROG%20STRIX%20Z490-F%20GAMING/helpdesk_bios/",
       "vendor": "asus"
     },
@@ -11945,8 +11950,8 @@
       "vendor": "asus"
     },
     "ROG STRIX Z490-H GAMING": {
-      "bios": "3302",
-      "date": "2026-03-27",
+      "bios": "3401",
+      "date": "2026-08-25",
       "url": "https://www.asus.com/supportonly/ROG%20STRIX%20Z490-H%20GAMING/helpdesk_bios/",
       "vendor": "asus"
     },
@@ -11957,14 +11962,14 @@
       "vendor": "asus"
     },
     "ROG STRIX Z590-A GAMING WIFI": {
-      "bios": "2405",
-      "date": "2026-01-12",
+      "bios": "2501",
+      "date": "2026-08-25",
       "url": "https://www.asus.com/supportonly/ROG%20STRIX%20Z590-A%20GAMING%20WIFI/helpdesk_bios/",
       "vendor": "asus"
     },
     "ROG STRIX Z590-A GAMING WIFI II": {
-      "bios": "2405",
-      "date": "2026-01-12",
+      "bios": "2501",
+      "date": "2026-08-25",
       "url": "https://www.asus.com/supportonly/ROG%20STRIX%20Z590-A%20GAMING%20WIFI%20II/helpdesk_bios/",
       "vendor": "asus"
     },
@@ -15261,15 +15266,27 @@
     }
   },
   "motherboardConflicts": {
-    "B650M GAMING PLUS WIFI": {
+    "B760M GAMING PLUS WIFI DDR4": {
       "msi": {
-        "bios": "7E24v1E2",
-        "date": "2026-07-06"
+        "bios": "7D99vM9",
+        "date": "2026-08-24"
       },
       "gigabyte": {
-        "bios": "FA8",
+        "bios": "F10",
+        "date": "2026-06-12",
+        "url": "https://www.gigabyte.com/Motherboard/B760M-GAMING-PLUS-WIFI-DDR4-rev-10/support#support-dl-bios",
+        "revisionAmbiguous": true
+      }
+    },
+    "B840M GAMING PLUS WIFI6E": {
+      "msi": {
+        "bios": "7E77v1A42",
+        "date": "2026-06-26"
+      },
+      "gigabyte": {
+        "bios": "F6",
         "date": "2026-05-21",
-        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/support#support-dl-bios"
+        "url": "https://www.gigabyte.com/Motherboard/B840M-GAMING-PLUS-WIFI6E/support#support-dl-bios"
       }
     },
     "B650M GAMING WIFI": {
@@ -15284,16 +15301,15 @@
         "revisionAmbiguous": true
       }
     },
-    "B760M GAMING PLUS WIFI DDR4": {
+    "B650M GAMING PLUS WIFI": {
       "msi": {
-        "bios": "7D99vM9",
-        "date": "2026-08-24"
+        "bios": "7E24v1E2",
+        "date": "2026-07-06"
       },
       "gigabyte": {
-        "bios": "F10",
-        "date": "2026-06-12",
-        "url": "https://www.gigabyte.com/Motherboard/B760M-GAMING-PLUS-WIFI-DDR4-rev-10/support#support-dl-bios",
-        "revisionAmbiguous": true
+        "bios": "FA8",
+        "date": "2026-05-21",
+        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-13/support#support-dl-bios"
       }
     },
     "B760M GAMING WIFI": {
@@ -15305,17 +15321,6 @@
         "bios": "F14",
         "date": "2026-06-12",
         "url": "https://www.gigabyte.com/Motherboard/B760M-GAMING-WIFI-rev-12-14/support#support-dl-bios"
-      }
-    },
-    "B840M GAMING PLUS WIFI6E": {
-      "msi": {
-        "bios": "7E77v1A42",
-        "date": "2026-06-26"
-      },
-      "gigabyte": {
-        "bios": "F6",
-        "date": "2026-05-21",
-        "url": "https://www.gigabyte.com/Motherboard/B840M-GAMING-PLUS-WIFI6E/support#support-dl-bios"
       }
     }
   },

@@ -1,6 +1,6 @@
-# Config X update feed
+# Snappy update feed
 
-The signed data Config X reads to judge whether a PC's BIOS, drivers and
+The signed data Snappy reads to judge whether a PC's BIOS, drivers and
 Windows build are current.
 
 Everything here is generated and pushed by CI. Nothing in this repository is
@@ -14,7 +14,7 @@ scheduled run would overwrite them.
 | `feed/updates.json` | the BIOS, driver and Windows versions the app compares against |
 | `feed/updates.sig` | ECDSA P-256 signature over `updates.json`, base64 |
 | `feed/public-key.txt` | the signing key's public half, SubjectPublicKeyInfo, base64 |
-| `feed/app.json` | the newest published Config X version |
+| `feed/app.json` | the newest published Snappy version |
 
 ## Verifying a copy
 
@@ -24,7 +24,7 @@ be fed to it. The same check by hand, in PowerShell 7 (Windows PowerShell's
 ECDsaCng cannot import a SubjectPublicKeyInfo):
 
 ```powershell
-$base = 'https://raw.githubusercontent.com/MattNorthOfficial/configx-update-feed-public/main/feed'
+$base = 'https://raw.githubusercontent.com/MattNorthOfficial/snappy-update-feed-public/main/feed'
 Invoke-WebRequest -UseBasicParsing "$base/updates.json" -OutFile updates.json
 $signature = (Invoke-WebRequest -UseBasicParsing "$base/updates.sig").Content.Trim()
 $publicKey = (Invoke-WebRequest -UseBasicParsing "$base/public-key.txt").Content.Trim()

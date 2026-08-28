@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-27T20:44:31Z",
+  "updated": "2026-08-28T18:26:29Z",
   "communitySources": {
     "intelChipsetInf": {
       "repository": "FirstEverTech/Universal-Intel-Chipset-Updater",
@@ -12,22 +12,22 @@
     }
   },
   "freshness": {
-    "amd.windows": "2026-08-27T20:44:32Z",
-    "amd.chipset": "2026-08-27T20:44:32Z",
-    "windowsBuilds": "2026-08-27T20:44:32Z",
-    "windows10": "2026-08-27T20:44:33Z",
+    "amd.windows": "2026-08-28T18:26:30Z",
+    "amd.chipset": "2026-08-28T18:26:31Z",
+    "windowsBuilds": "2026-08-28T18:26:32Z",
+    "windows10": "2026-08-28T18:26:32Z",
     "motherboards.msi": "2026-08-27T22:10:43Z",
     "motherboards.gigabyte": "2026-08-27T22:10:43Z",
     "motherboards.asrock": "2026-08-27T22:10:43Z",
     "motherboards.asus": "2026-08-27T22:10:43Z",
-    "dell": "2026-08-27T22:10:47Z",
-    "intel.chipset": "2026-08-27T22:11:08Z",
-    "intel.arc": "2026-08-27T22:11:08Z",
-    "intel.xe": "2026-08-27T22:11:08Z",
-    "intel.rst20": "2026-08-27T22:11:08Z",
-    "intel.rst21": "2026-08-27T22:11:08Z",
-    "intel.chipsetInf": "2026-08-27T22:11:08Z",
-    "nvidia": "2026-08-27T22:11:09Z"
+    "dell": "2026-08-28T18:26:41Z",
+    "intel.chipset": "2026-08-28T18:27:07Z",
+    "intel.arc": "2026-08-28T18:27:07Z",
+    "intel.xe": "2026-08-28T18:27:07Z",
+    "intel.rst20": "2026-08-28T18:27:07Z",
+    "intel.rst21": "2026-08-28T18:27:07Z",
+    "intel.chipsetInf": "2026-08-28T18:27:07Z",
+    "nvidia": "2026-08-28T18:27:08Z"
   },
   "amd": {
     "windows": {
@@ -18903,7 +18903,7 @@
     "arc": {
       "version": "32.0.101.8991",
       "url": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html",
-      "download": "https://downloadmirror.intel.com/926884/gfx_win_101.8991.exe"
+      "download": "https://downloadmirror.intel.com/927121/gfx_win_101.8991.exe"
     },
     "xe": {
       "version": "32.0.101.7088",

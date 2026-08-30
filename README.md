@@ -3,9 +3,12 @@
 The signed data Snappy reads to judge whether a PC's BIOS, drivers and
 Windows build are current.
 
-Everything here is generated and pushed by CI. Nothing in this repository is
-edited by hand, so pull requests against it cannot be merged - the next
-scheduled run would overwrite them.
+Everything under `feed/` is generated and pushed by CI, so a pull request
+changing it cannot be merged - the next scheduled run would overwrite it. Fix
+the scrapers instead; they live in the private repository that publishes here.
+
+This README is the exception: the mirror step copies only the `feed/`
+artifacts, so documentation here is maintained by hand and survives every run.
 
 - [Files](#files)
 - [Verifying a copy](#verifying-a-copy)
@@ -19,8 +22,20 @@ scheduled run would overwrite them.
 | --- | --- |
 | `feed/updates.json` | the BIOS, driver and Windows versions the app compares against |
 | `feed/updates.sig` | ECDSA P-256 signature over `updates.json`, base64 |
+| `feed/checked.json` | when the producer last ran, and the per-section check times as of that run |
+| `feed/checked.sig` | ECDSA P-256 signature over `checked.json`, base64 |
 | `feed/public-key.txt` | the signing key's public half, SubjectPublicKeyInfo, base64 |
 | `feed/app.json` | the newest published Snappy version |
+
+`checked.json` is signed with the same key and must be verified the same way.
+It is the one file here that can make stale data look freshly checked, which
+is exactly the claim it exists to make - so it is never trusted unsigned. It
+is also written best-effort: a copy of this feed without it is valid, and a
+consumer that cannot get it should fall back to `updates.json`'s own stamps.
+
+`app.json` is **not** signed. It carries no version data the app acts on -
+only the newest released version number, which the app holds to the shape a
+version actually has rather than rendering whatever it receives.
 
 ## Verifying a copy
 
@@ -120,6 +135,25 @@ key alone can never move a machine's trust root.
 it stamps each section as that section's own check finishes, so a section that
 could not be refreshed keeps its previous timestamp instead of inheriting a
 misleadingly recent one.
+
+Neither answers "did anyone look recently", though, and that is what
+`checked.json` is for. `updates.json` is only rewritten when a value actually
+moves, so on a quiet week its own stamps sit still - which is indistinguishable
+from a producer that has died. `checked.json` is written on every run, whether
+or not anything changed, so it separates the two:
+
+```json
+{
+  "checked": "2026-08-29T21:11:00Z",
+  "freshness": { "amd.windows": "2026-08-29T21:10:26Z", "...": "..." }
+}
+```
+
+A producer that has stopped running keeps serving well-formed, correctly
+signed, increasingly wrong answers, and `checked` is the only field that can
+notice. Read it alongside a live feed only: beside a bundled or cached
+snapshot, a freshly fetched check time would describe a producer run whose
+data that copy does not actually have.
 
 That distinction matters because **a section whose source cannot be reached
 keeps its last known values rather than disappearing**. Consumers should read

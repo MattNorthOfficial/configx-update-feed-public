@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-29T15:17:58Z",
+  "updated": "2026-08-31T17:42:03Z",
   "communitySources": {
     "intelChipsetInf": {
       "repository": "FirstEverTech/Universal-Intel-Chipset-Updater",
@@ -12,22 +12,22 @@
     }
   },
   "freshness": {
-    "amd.windows": "2026-08-29T15:17:59Z",
-    "amd.chipset": "2026-08-29T15:17:59Z",
-    "windowsBuilds": "2026-08-29T15:18:00Z",
-    "windows10": "2026-08-29T15:18:00Z",
-    "motherboards.msi": "2026-08-29T16:47:42Z",
-    "motherboards.gigabyte": "2026-08-29T16:47:42Z",
-    "motherboards.asrock": "2026-08-29T16:47:42Z",
-    "motherboards.asus": "2026-08-29T16:47:42Z",
-    "dell": "2026-08-29T16:47:45Z",
-    "intel.chipset": "2026-08-29T16:47:56Z",
-    "intel.arc": "2026-08-29T16:47:56Z",
-    "intel.xe": "2026-08-29T16:47:56Z",
-    "intel.rst20": "2026-08-29T16:47:56Z",
-    "intel.rst21": "2026-08-29T16:47:56Z",
-    "intel.chipsetInf": "2026-08-29T16:47:56Z",
-    "nvidia": "2026-08-29T16:47:56Z"
+    "amd.windows": "2026-08-31T17:42:03Z",
+    "amd.chipset": "2026-08-31T17:42:04Z",
+    "windowsBuilds": "2026-08-31T17:42:04Z",
+    "windows10": "2026-08-31T17:42:04Z",
+    "motherboards.msi": "2026-08-31T19:13:21Z",
+    "motherboards.gigabyte": "2026-08-31T19:13:21Z",
+    "motherboards.asrock": "2026-08-31T19:13:21Z",
+    "motherboards.asus": "2026-08-31T19:13:21Z",
+    "dell": "2026-08-31T19:13:27Z",
+    "intel.chipset": "2026-08-31T19:13:39Z",
+    "intel.arc": "2026-08-31T19:13:39Z",
+    "intel.xe": "2026-08-31T19:13:39Z",
+    "intel.rst20": "2026-08-31T19:13:39Z",
+    "intel.rst21": "2026-08-31T19:13:39Z",
+    "intel.chipsetInf": "2026-08-31T19:13:39Z",
+    "nvidia": "2026-08-31T19:13:40Z"
   },
   "amd": {
     "windows": {
@@ -1270,18 +1270,18 @@
       "vendor": "msi"
     },
     "B550M PRO-VDH": {
-      "bios": "7C95v2P1",
-      "date": "2026-07-24",
+      "bios": "7C95v2P2",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "B550M PRO-VDH WIFI": {
-      "bios": "7C95v2P1",
-      "date": "2026-07-24",
+      "bios": "7C95v2P2",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "B550M PRO-VDH WIFI (CEC)": {
-      "bios": "7C95vHG1",
-      "date": "2026-07-24",
+      "bios": "7C95vHG2",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "B550M Pro4": {
@@ -1773,6 +1773,11 @@
       "date": "2026-05-21",
       "url": "https://www.gigabyte.com/Motherboard/B650E-EAGLE-WIFI6E/support#support-dl-bios",
       "vendor": "gigabyte"
+    },
+    "B650E GAMING WIFI": {
+      "bios": "7E97v3A10",
+      "date": "2026-08-25",
+      "vendor": "msi"
     },
     "B650E MAX GAMING WIFI": {
       "bios": "3881",
@@ -6900,8 +6905,8 @@
       "vendor": "msi"
     },
     "MAG H670 TOMAHAWK WIFI DDR4": {
-      "bios": "7D25vHO",
-      "date": "2026-03-20",
+      "bios": "7D25vHP",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "MAG X570 TOMAHAWK WIFI": {
@@ -9833,8 +9838,8 @@
       "vendor": "msi"
     },
     "PRO B550M-VC WIFI": {
-      "bios": "7C95vHG1",
-      "date": "2026-07-24",
+      "bios": "7C95vHG2",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "Pro B560M-C/CSM": {
@@ -10392,13 +10397,13 @@
       "vendor": "asus"
     },
     "PRO H610M-C EX": {
-      "bios": "7D56v1O",
-      "date": "2026-04-07",
+      "bios": "7D56v1P",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "PRO H610M-C EX DDR4": {
-      "bios": "7D56vAO",
-      "date": "2026-06-10",
+      "bios": "7D56vAP",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "Pro H610M-C-CSM": {
@@ -10746,23 +10751,23 @@
       "vendor": "msi"
     },
     "PRO Z690-A": {
-      "bios": "7D25vAN",
-      "date": "2026-04-07",
+      "bios": "7D25vAO",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "PRO Z690-A DDR4": {
-      "bios": "7D25v1N",
-      "date": "2026-04-07",
+      "bios": "7D25v1O",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "PRO Z690-A WIFI": {
-      "bios": "7D25vAN",
-      "date": "2026-04-07",
+      "bios": "7D25vAO",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "PRO Z690-A WIFI DDR4": {
-      "bios": "7D25v1N",
-      "date": "2026-04-07",
+      "bios": "7D25v1O",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "PRO Z690-P DDR4": {
@@ -10989,8 +10994,8 @@
       "vendor": "gigabyte"
     },
     "Q670M vPro": {
-      "bios": "2.05",
-      "date": "2025-02-25",
+      "bios": "2.07",
+      "date": "2026-08-31",
       "url": "https://www.asrock.com/mb/Intel/Q670M%20vPro/BIOS.html",
       "vendor": "asrock"
     },
@@ -14933,8 +14938,8 @@
       "vendor": "asus"
     },
     "Z790-S01": {
-      "bios": "7D88v1H",
-      "date": "2026-03-31",
+      "bios": "7D88v1I",
+      "date": "2026-08-31",
       "vendor": "msi"
     },
     "Z790I AORUS ULTRA": {
@@ -15283,6 +15288,18 @@
     }
   },
   "motherboardConflicts": {
+    "B650M GAMING PLUS WIFI": {
+      "msi": {
+        "bios": "7E24v1E2",
+        "date": "2026-07-06"
+      },
+      "gigabyte": {
+        "bios": "F40",
+        "date": "2026-05-21",
+        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-10-11-12/support#support-dl-bios",
+        "revisionAmbiguous": true
+      }
+    },
     "B760M GAMING WIFI": {
       "msi": {
         "bios": "7D90vH9",
@@ -15305,18 +15322,6 @@
         "url": "https://www.gigabyte.com/Motherboard/B840M-GAMING-PLUS-WIFI6E/support#support-dl-bios"
       }
     },
-    "B650M GAMING WIFI": {
-      "msi": {
-        "bios": "7E30v1F2",
-        "date": "2026-07-06"
-      },
-      "gigabyte": {
-        "bios": "F40",
-        "date": "2026-05-21",
-        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-WIFI-rev-10/support#support-dl-bios",
-        "revisionAmbiguous": true
-      }
-    },
     "B760M GAMING PLUS WIFI DDR4": {
       "msi": {
         "bios": "7D99vM9",
@@ -15329,15 +15334,15 @@
         "revisionAmbiguous": true
       }
     },
-    "B650M GAMING PLUS WIFI": {
+    "B650M GAMING WIFI": {
       "msi": {
-        "bios": "7E24v1E2",
+        "bios": "7E30v1F2",
         "date": "2026-07-06"
       },
       "gigabyte": {
         "bios": "F40",
         "date": "2026-05-21",
-        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-PLUS-WIFI-rev-10-11-12/support#support-dl-bios",
+        "url": "https://www.gigabyte.com/Motherboard/B650M-GAMING-WIFI-rev-10/support#support-dl-bios",
         "revisionAmbiguous": true
       }
     }

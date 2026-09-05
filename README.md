@@ -4,8 +4,9 @@ The signed data Snappy reads to judge whether a PC's BIOS, drivers and
 Windows build are current.
 
 Everything under `feed/` is generated and pushed by CI, so a pull request
-changing it cannot be merged - the next scheduled run would overwrite it. Fix
-the scrapers instead; they live in the private repository that publishes here.
+changing it is pointless - nothing stops it merging, but the next scheduled
+run overwrites it. Fix the scrapers instead; they live in the private
+repository that publishes here.
 
 This README is the exception: the mirror step copies only the `feed/`
 artifacts, so documentation here is maintained by hand and survives every run.
@@ -73,9 +74,9 @@ some other way:
 5748dbf69e5a3fda65628b30aef1ea28972532285a296ccf491b0d6d39767f9d
 ```
 
-The app pins this key inside its signed package rather than trusting whatever
-sits beside the feed, so a key change requires an app release, and a fetched
-key alone can never move a machine's trust root.
+The app ships this key beside its signed executable rather than trusting
+whatever sits beside the feed, so a key change requires an app release, and a
+fetched key alone can never move a machine's trust root.
 
 ## Feed format
 
@@ -170,7 +171,9 @@ costs nothing in practice.
 Vendor sources swept on a schedule: AMD's and NVIDIA's driver releases, Intel
 driver branches, Microsoft's Windows release information, Dell's update
 catalog, and the BIOS listings of the four desktop board vendors. Values are
-taken from each vendor's own published pages or catalogs - nothing here is
+taken from each vendor's own published pages or catalogs, with one exception:
+`intel.chipsetInf` republishes a community-maintained table of Intel chipset
+INF versions, pinned to the commit `communitySources` names. Nothing else is
 community-submitted, and nothing is inferred where a vendor is ambiguous.
 
 The scrapers that produce this data, and the signing key, live elsewhere. Only
